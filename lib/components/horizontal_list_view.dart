@@ -4,9 +4,10 @@ class HorizonatlList extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      height: 100.0,
+      height: 80.0,
       child: ListView(
         scrollDirection: Axis.horizontal,
+        padding: EdgeInsets.all(8.0),
         children: <Widget>[
           Category(
             imageLocation: "images/desktop-4.jpg",
