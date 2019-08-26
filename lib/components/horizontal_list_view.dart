@@ -4,7 +4,7 @@ class HorizonatlList extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      height: 80.0,
+      height: 90.0,
       child: ListView(
         scrollDirection: Axis.horizontal,
         padding: EdgeInsets.all(8.0),
@@ -49,12 +49,12 @@ class Category extends StatelessWidget {
       child: InkWell(
         onTap: () {},
         child: Container(
-          width: 100.0,
+          width: 80.0,
           child: ListTile(
             title: Image.asset(
               imageLocation,
               width: 100.0,
-              height: 80.0,
+              height: 60.0,
             ),
             subtitle: Container(
                 alignment: Alignment.topCenter,
