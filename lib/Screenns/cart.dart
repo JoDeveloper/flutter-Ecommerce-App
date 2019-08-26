@@ -1,3 +1,4 @@
+import 'package:ecommerce/components/cart_products.dart';
 import 'package:flutter/material.dart';
 
 import '../main.dart';
@@ -31,6 +32,7 @@ class _CartState extends State<Cart> {
           ),
         ],
       ),
+      body: CartProducts(),
       bottomNavigationBar: Container(
         color: Colors.white,
         child: Row(

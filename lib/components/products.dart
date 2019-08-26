@@ -1,4 +1,4 @@
-import 'package:ecommerce/Screenns/Product_detail.dart';
+import 'package:ecommerce/components/products_list.dart';
 import 'package:ecommerce/components/single_product.dart';
 import 'package:flutter/material.dart';
 
@@ -10,56 +10,6 @@ class Products extends StatefulWidget {
 }
 
 class _ProductsState extends State<Products> {
-  var product_list = [
-    {
-      "name": "Blazer",
-      "image": "images/m2.jpg",
-      "oldPrice": 540.0,
-      "price": 500.0
-    },
-    {
-      "name": "back",
-      "image": "images/back.jpg",
-      "oldPrice": 320.0,
-      "price": 280.0
-    },
-    {
-      "name": "shirt",
-      "image": "images/w3.jpeg",
-      "oldPrice": 460.0,
-      "price": 410.0
-    },
-    {
-      "name": "Nicon",
-      "image": "images/camera-large.jpg",
-      "oldPrice": 320.0,
-      "price": 280.0
-    },
-    {
-      "name": "Iphone",
-      "image": "images/phone-2.jpg",
-      "oldPrice": 460.0,
-      "price": 410.0
-    },
-    {
-      "name": "Dell",
-      "image": "images/desktop-4.jpg",
-      "oldPrice": 320.0,
-      "price": 280.0
-    },
-    {
-      "name": "Hp",
-      "image": "images/laptop-25.jpg",
-      "oldPrice": 320.0,
-      "price": 280.0
-    },
-    {
-      "name": "Printer",
-      "image": "images/appliance-8.jpg",
-      "oldPrice": 320.0,
-      "price": 280.0
-    },
-  ];
 
   @override
   Widget build(BuildContext context) {
