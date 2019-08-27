@@ -2,7 +2,7 @@ import 'package:carousel_pro/carousel_pro.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
-import 'Screenns/cart.dart';
+import 'Screens/cart.dart';
 import 'components/horizontal_list_view.dart';
 import 'components/products.dart';
 
